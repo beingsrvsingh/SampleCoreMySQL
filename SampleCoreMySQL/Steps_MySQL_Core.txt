@@ -1,0 +1,5 @@
+Steps to Connect MySQL database in VISUAL STUDIO 2017 Core
+
+1. install Windows (x86, 64-bit), MSI Installer (https://dev.mysql.com/downloads/windows/visualstudio/) or installer provided in zip
+2. Follow these steps to scaffold https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework-core-scaffold-example.html
+3. Scaffold-DbContext "server=localhost;port=3306;user=root;password='';database=CoreDb" MySql.Data.EntityFrameworkCore -OutputDir Models -f
